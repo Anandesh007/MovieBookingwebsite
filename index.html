@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Movies website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!--navbar-->
+    <header>
+        <a href="#" class="logo">
+            <i class='bx bxs-movie-play'></i>Movies
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+    <!--Menus-->
+    <ul class="navbar">
+        <li><a href="#home" class="home-active">Home</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#coming">Coming</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+    </ul>
+        <a href="#" class="btn">Sign in</a>
+    </header>
+    <!--Home-->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+    <!--Box1-->
+            <div class="swiper-slide container">
+                <picture>
+                    <source media="(max-width: 650px)" srcset="img/homem1.jpg">
+                    <source media="(max-width: 465px)" srcset="img/homem1.jpg">
+                    <img src="img/home1.jpg" alt="">
+                  </picture>
+            <div class="home-text">
+                <span>Marvel Universe</span>
+                <h1>Spiderman: <br>No Way Home</h1>
+                <a href="#" class="btn">Book Now</a>
+                <a href="#" class="play">
+                    <i class='bx bx-play'></i>
+                </a>
+            </div>
+            </div>
+    <!--Box2-->
+    <div class="swiper-slide container">
+        <picture>
+            <source media="(max-width: 650px)" srcset="img/homem2.jpg">
+            <source media="(max-width: 465px)" srcset="img/homem2.jpg">
+            <img src="img/home2.jpg" alt="">
+          </picture>
+    <div class="home-text">
+        <span>Marvel Universe</span>
+        <h1>Guardians of the Galaxy: <br> Volume-3</h1>
+        <a href="#" class="btn">Book Now</a>
+        <a href="#" class="play">
+            <i class='bx bx-play'></i>
+        </a>
+    </div>
+    </div>
+    <!--Box3-->
+    <div class="swiper-slide container">
+        <picture>
+            <source media="(max-width: 650px)" srcset="img/homem3.jpg">
+            <source media="(max-width: 465px)" srcset="img/homem3.jpg">
+            <img src="img/home3.jpg" alt="">
+          </picture>
+    <div class="home-text">
+        <span>Marvel Universe</span>
+        <h1>The Ant-Man and the Wasp:<br> Quantamania</h1>
+        <a href="#" class="btn">Book Now</a>
+        <a href="#" class="play">
+            <i class='bx bx-play'></i>
+        </a>
+    </div>
+    </div>
+        </div>
+          <div class="swiper-pagination"></div>
+
+    </section>
+    <!--Movies-->
+    <section class="movies" id="movies">
+        <h2 class="heading">Opening This Week</h2>
+        <!-- Movies Container-->
+        <div class="movies-container">
+        <!--box1-->
+            <div class="box">
+            <div class="box-img">
+                <img src="img/m1.jpg" alt="">
+            </div>
+            <h3>Mufasa: The lion king</h3>
+            <span>120 min | Animation</span>
+            </div>
+        <!--box2-->
+            <div class="box">
+            <div class="box-img">
+                <img src="img/m2.jpg" alt="">
+            </div>
+            <h3>Venom: The last dance</h3>
+            <span>120 min | Thriller</span>
+            </div>
+        <!--box3-->
+            <div class="box">
+            <div class="box-img">
+                <img src="img/m3.jpg" alt="">
+            </div>
+            <h3>Kravan: The Hunter</h3>
+            <span>120 min | Adventure</span>
+            </div>
+        <!--box4-->
+            <div class="box">
+            <div class="box-img">
+                <img src="img/m4.jpg" alt="">
+            </div>
+            <h3>A Quiet Place:<br>Day One</h3>
+            <span>120 min | Horror</span>
+            </div>
+        <!--box5-->
+            <div class="box">
+            <div class="box-img">
+                <img src="img/m5.jpg" alt="">
+            </div>
+            <h3>Ghostbusters: Frozen Empire</h3>
+            <span>120 min | Fantasy</span>
+            </div>
+        <!--box6-->
+            <div class="box">
+            <div class="box-img">
+                <img src="img/m6.jpg" alt="">
+            </div>
+            <h3>Kingdom of the Planet<br>of the Apes</h3>
+            <span>120 min | Sci-fi</span>
+            </div>
+        <!--box7-->
+        <div class="box">
+            <div class="box-img">
+                <img src="img/m7.jpg" alt="">
+            </div>
+            <h3>Madame Web</h3>
+            <span>120 min | Action</span>
+            </div>
+        <!--box8-->
+        <div class="box">
+            <div class="box-img">
+               <img src="img/m8.jpg" alt="">
+            </div>
+            <h3>Wakanda: Forever</h3>
+            <span>120 min | Action</span>
+            </div>
+        <!--box9-->
+        <div class="box">
+            <div class="box-img">
+                <img src="img/m9.jpg" alt="">
+            </div>
+            <h3>Mortal Engines</h3>
+            <span>120 min | Action</span>
+            </div>
+        <!--box10-->
+        <div class="box">
+            <div class="box-img">
+                <img src="img/m10.jpg" alt="">
+            </div>
+            <h3>UnderWorld Blood Wars</h3>
+            <span>120 min | Thriller</span>
+            </div>    
+        </div>
+    </section>
+    <!--Coming-->
+    <section class="coming" id="coming">
+        <h2 class="heading">Upcoming</h2>
+        <!--Coming container-->
+        <div class="coming-container">
+                <!--box1-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/coming1.jpg" alt="">
+                </div>
+                <h3>Mission: Impossible:<br>The Final Reckoning</h3>
+                <span>120 min | Action</span>
+                </div>
+            <!--box2-->
+                <div class="box">
+                <div class="box-img">
+                    <img src="img/coming2.jpg" alt="">
+                </div>
+                <h3>Avatar: Fire and Ash</h3>
+                <span>120 min | Fantasy</span>
+                </div>
+            <!--box3-->
+                <div class="box">
+                <div class="box-img">
+                    <img src="img/coming3.jpg" alt="">
+                </div>
+                <h3>Karate Kid: Legends</h3>
+                <span>120 min | Action</span>
+                </div>
+            <!--box4-->
+                <div class="box">
+                <div class="box-img">
+                    <img src="img/coming4.jpg" alt="">
+                </div>
+                <h3>Jurassic World Rebirth</h3>
+                <span>120 min | Fantasy</span>
+                </div>
+            <!--box5-->
+                <div class="box">
+                <div class="box-img">
+                    <img src="img/coming5.jpg" alt="">
+                </div>
+                <h3>The Fantastic Four:<br>First Steps</h3>
+                <span>120 min | Action</span>
+                </div>
+            <!--box6-->
+                <div class="box">
+                <div class="box-img">
+                    <img src="img/coming6.jpg" alt="">
+                </div>
+                <h3>Thunderbolts</h3>
+                <span>120 min | Action</span>
+                </div>
+            <!--box7-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/coming7.jpg" alt="">
+                </div>
+                <h3>Captain America:<br>Brave New World</h3>
+                <span>120 min | Adventures</span>
+                </div>
+            <!--box8-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/coming8.jpg" alt="">
+                </div>
+                <h3>A Minecraft Movie</h3>
+                <span>120 min | Thriller</span>
+                </div>
+            <!--box9-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/coming9.jpg" alt="">
+                </div>
+                <h3>An Insidious:<br>The Red Door</h3>
+                <span>120 min | Horror</span>
+                </div>
+            <!--box10-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/coming10.jpg" alt="">
+                </div>
+                <h3>The Conjuring:<br>Last Rites</h3>
+                <span>120 min | Thriller</span>
+                </div>
+        </div>
+    </section>
+    <!--NewsLetter-->
+    <section class="newsletter" id="newsletter">
+        <h2>Subscribe to Get <br>NewsLetter</h2>
+        <form action="">
+            <input type="email" class="email" placeholder="Enter Email..." required>
+            <input type="submit" value="Subscribe" class="btn">
+        </form>
+    </section>
+    <!--Footer-->
+    <section class="footer">
+        <a href="#" class="logo">
+            <i class='bx bxs-movie-play'></i>Movies
+        </a>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-tiktok'></i></a>
+        </div>
+    </section>
+    <!--copyright-->
+    <div class="copyright">
+        <p>&#169; Anandesh All Right Reserved</p>
+    </div>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Link to Custom Js-->
+    <script src="main.js"></script>
+</body>
+</html>
